@@ -15,9 +15,6 @@ def move_images():
     output_dirs = [os.path.join(CURRENT_DIR, OUTPUT_DIR, labeler, IMAGE_CATEGORY) for labeler in LABELERS]
     num_groups = len(LABELERS)
 
-    # for output_dir in output_dirs:
-    #     os.mkdir(output_dir)
-
     for path_i in range(len(images_list)):
         original_path = os.path.join(input_path, images_list[path_i])
         image = Image.open(original_path)
