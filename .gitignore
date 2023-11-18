@@ -163,3 +163,4 @@ cython_debug/
 images_to_label/
 input_images/
 input_images copy/
+labeled_data/
