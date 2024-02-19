@@ -29,7 +29,7 @@ def distribute_videos_and_images():
         Path(video_dir).mkdir(parents=True, exist_ok=True)
 
     # split images and videos
-    images_list = [file for file in files_list if (file[file.index("."):] in IMAGE_EXTENSIONS)]
+    images_list = [file for file in files_list if (file[-5:] in IMAGE_EXTENSIONS or file[-4:] in IMAGE_EXTENSIONS)]
     videos_list = [file for file in files_list if (file[file.index("."):] in VIDEO_EXTENSIONS)]
 
     # make sure that all files are going to one of the folders
