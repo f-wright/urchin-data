@@ -34,7 +34,7 @@ def distribute_videos_and_images():
 
     # make sure that all files are going to one of the folders
     remaining_files = [file for file in files_list if (file not in images_list and file not in videos_list)]
-    assert len(remaining_files) == 0, f"Missing extension in the list of video and image extensions, please check all are included. FIles not in either list: {remaining_files}"
+    assert len(remaining_files) == 0, f"Missing extension in the list of video and image extensions, please check all are included. Files not in either list: {remaining_files}"
 
     # move images
     for path_i in range(len(images_list)):
