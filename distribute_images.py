@@ -3,13 +3,13 @@ import os
 from PIL import Image
 from pathlib import Path
 
-LABELERS = ["Francine", "James", "Ryan", "Brittany", "Katie"]
+LABELERS = ["Brittany", "Castor", "Eliza", "Francine", "James", "Ryan"]
 INPUT_DIR = 'input_images'
 OUTPUT_DIR = 'images_to_label'
-FILE_CATEGORY = 'sean_nov_3'
+FILE_CATEGORY = 'google_negative_1'
 CURRENT_DIR = os.getcwd()
 VIDEO_EXTENSIONS = {".mov", ".MOV"}
-IMAGE_EXTENSIONS = {".JPG", ".jpg", ".png"}
+IMAGE_EXTENSIONS = {".JPG", ".jpg", ".png", ".avif", ".webp", ".gif", ".jpeg"}
 
 def distribute_videos_and_images():
     # define inputs

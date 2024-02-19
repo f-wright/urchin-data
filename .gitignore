@@ -159,8 +159,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+.DS_Store
+
 # image files
 images_to_label/
 input_images/
-input_images copy/
+input_images_1/
 labeled_data/
