@@ -166,3 +166,4 @@ images_to_label/
 input_images/
 input_images_1/
 labeled_data/
+background_LSUI_input/
