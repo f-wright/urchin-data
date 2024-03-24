@@ -38,4 +38,4 @@ def sample_files(num_to_sample: int) -> None:
 
 
 if __name__ == "__main__":
-    sample_files(120)
+    sample_files(100)
